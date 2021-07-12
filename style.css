@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+html {
+  font-size: 62.5%;
+}
+body {
+  width: 90%;
+  min-width: 500px;
+  margin: auto;
+  font-size: 1.6rem;
+}
+.htmlfmt-container {
+  width: 90%;
+  margin: 30px auto;
+}
+.htmlfmt-box {
+  height: 300px;
+  overflow: auto;
+  width: 100%;
+  margin: 1.5rem auto;
+  padding: 1rem;
+  border: solid 1px #000000;
+}
+#htmlfmt-output-box.htmlfmt-box {
+  height: 400px;
+  margin: 0 auto;
+  white-space: pre-wrap;
+}
+#htmlfmt-preview-box.htmlfmt-box {
+  height: auto;
+  max-height: 1000px;
+}
+#htmlfmt-preview-box table {
+  margin: 1.5rem;
+  border-collapse: collapse;
+}
+#htmlfmt-preview-box table,
+#htmlfmt-preview-box tr,
+#htmlfmt-preview-box th,
+#htmlfmt-preview-box td {
+  border: solid 1px #000000;
+}
+#htmlfmt-preview-box tr,
+#htmlfmt-preview-box th,
+#htmlfmt-preview-box td {
+  padding: 1rem;
+}
+#htmlfmt-preview-box p {
+  margin: 0.8rem 0;
+}
+#htmlfmt-preview-box h1 {
+  margin: 32px 0;
+  border: 2px solid #000;
+}
+#htmlfmt-preview-box h2 {
+  margin: 24px 0;
+  border-bottom: 2px solid #aaa;
+}
+#htmlfmt-preview-box h3 {
+  margin: 16px 0;
+  border-left: 5px solid #aaa;
+  border-bottom: 2px solid #aaa;
+}
+#htmlfmt-preview-box h4, h5, h6 {
+  margin: 16px 0;
+}
+#htmlfmt-preview-box p {
+  background-color: #eed;
+}
+#htmlfmt-preview-box a {
+  color: #00f;
+  text-decoration: underline;
+}
+#htmlfmt-preview-box section {
+  margin: 16px 0;
+  padding: 4px;
+  border: solid 2px #aa9;
+}
+#htmlfmt-preview-box h1::before,
+#htmlfmt-preview-box h2::before,
+#htmlfmt-preview-box h3::before,
+#htmlfmt-preview-box h4::before,
+#htmlfmt-preview-box h5::before,
+#htmlfmt-preview-box h6::before,
+#htmlfmt-preview-box p::before {
+  color: #aaa;
+}
+#htmlfmt-preview-box h1::before {
+  content: "(h1)";
+}
+#htmlfmt-preview-box h2::before {
+  content: "(h2)";
+}
+#htmlfmt-preview-box h3::before {
+  content: "(h3)";
+}
+#htmlfmt-preview-box h4::before {
+  content: "(h4)";
+}
+#htmlfmt-preview-box h5::before {
+  content: "(h5)";
+}
+#htmlfmt-preview-box h6::before {
+  content: "(h6)";
+}
+#htmlfmt-preview-box p::before {
+  content: "(p)";
+}
